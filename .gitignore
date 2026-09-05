@@ -1,0 +1,16 @@
+# 运行时生成的数据库（勿提交财务数据）
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# 环境变量 / 密钥（勿提交密码哈希或明文）
+.env
+.env.*
+!.env.example
